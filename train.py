@@ -19,7 +19,7 @@ if not os.path.exists(positive_samples_output_path):
     os.makedirs(positive_samples_output_path)
 
 # Generate positive samples
-num_samples = 1000  # Number of positive samples to generate
+num_samples = 1000000  # Number of positive samples to generate
 sample_width = 24  # Width of the generated positive samples
 sample_height = 24  # Height of the generated positive samples
 

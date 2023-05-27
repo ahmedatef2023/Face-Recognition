@@ -1,7 +1,6 @@
 import cv2
 
-# Load the pre-trained Viola-Jones face cascade classifier
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('FaceDetectionTraining.xml')
 
 # Load the image
 image = cv2.imread('a2.bmp')
