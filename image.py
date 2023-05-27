@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier('FaceDetectionTraining.xml')
 
 # Load the image
-image = cv2.imread('b2.jpg')
+image = cv2.imread('image 1.jpg')
 
 desired_width = 640
 desired_height = 680
